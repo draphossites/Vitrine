@@ -1,0 +1,57 @@
+{
+  "store": {
+    "slug": "turbo-demo",
+    "name": "Turbo Games",
+    "description": "Controles, áudio e acessórios para montar seu setup.",
+    "logoUrl": "",
+    "bannerUrl": "demo/turbo-banner.webp",
+    "primaryColor": "#e95208",
+    "backgroundColor": "#fbf7ef",
+    "font": "system",
+    "deliveryEnabled": true,
+    "deliveryFeeCents": 900,
+    "paymentMethods": [
+      "pix",
+      "card",
+      "cash"
+    ]
+  },
+  "products": [
+    {
+      "id": "demo-controle",
+      "name": "Controle sem fio",
+      "description": "Dois analógicos, vibração e conexão sem fio.",
+      "priceCents": 18990,
+      "category": "Controles",
+      "imageUrl": "demo/controle.webp",
+      "available": true
+    },
+    {
+      "id": "demo-fone",
+      "name": "Headset gamer",
+      "description": "Almofadas macias e microfone ajustável.",
+      "priceCents": 14990,
+      "category": "Áudio",
+      "imageUrl": "demo/fone.webp",
+      "available": true
+    },
+    {
+      "id": "demo-teclado",
+      "name": "Teclado mecânico compacto",
+      "description": "Formato compacto com teclas de resposta tátil.",
+      "priceCents": 21990,
+      "category": "Periféricos",
+      "imageUrl": "demo/teclado.webp",
+      "available": true
+    },
+    {
+      "id": "demo-mouse",
+      "name": "Mouse gamer",
+      "description": "Design leve, sensor óptico e ajuste de DPI.",
+      "priceCents": 8990,
+      "category": "Periféricos",
+      "imageUrl": "demo/mouse.webp",
+      "available": true
+    }
+  ]
+}
